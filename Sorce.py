@@ -51,7 +51,6 @@ while (True):
 
     except low_bal:
         print("\nSorry could not perform transection low balance")
-        print("Chal Bhikhari!")
         while (True):
             decision = input("Want to continue!(Y/N):\n")
             if (decision == 'Y' or decision == 'y'):
